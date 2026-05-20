@@ -1,0 +1,150 @@
+{
+  "crops": [
+    {
+      "id": "wheat_001",
+      "name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "category": "cereal",
+      "seasons": ["Rabi"],
+      "soil_types": ["Loamy", "Clay-loam", "Sandy-loam"],
+      "water_requirement": "Medium",
+      "growth_duration_days": 120,
+      "optimal_temp_range": [10, 25],
+      "common_pests": ["Aphids", "Army worm", "Termites"],
+      "common_diseases": ["Rust", "Smut", "Blight"],
+      "fertilizer_npk": {
+        "nitrogen": "120 kg/ha",
+        "phosphorus": "60 kg/ha",
+        "potassium": "40 kg/ha"
+      },
+      "irrigation_schedule": {
+        "crown_root": "20-25 DAS",
+        "tillering": "40-45 DAS",
+        "jointing": "60-65 DAS",
+        "flowering": "80-85 DAS",
+        "milk": "100-105 DAS",
+        "dough": "115-120 DAS"
+      },
+      "varieties": ["HD-2967", "PBW-343", "WH-542", "DBW-17"],
+      "additional_info": {
+        "sowing_time": "October-November",
+        "harvest_time": "March-April",
+        "seed_rate": "100 kg/ha"
+      }
+    },
+    {
+      "id": "rice_001",
+      "name": "Rice",
+      "scientific_name": "Oryza sativa",
+      "category": "cereal",
+      "seasons": ["Kharif"],
+      "soil_types": ["Clay", "Clay-loam"],
+      "water_requirement": "High",
+      "growth_duration_days": 120,
+      "optimal_temp_range": [20, 35],
+      "common_pests": ["Stem borer", "Brown plant hopper", "Gall midge"],
+      "common_diseases": ["Blast", "Bacterial blight", "Sheath blight"],
+      "fertilizer_npk": {
+        "nitrogen": "120 kg/ha",
+        "phosphorus": "60 kg/ha",
+        "potassium": "40 kg/ha"
+      },
+      "irrigation_schedule": {
+        "transplanting": "Immediately after",
+        "tillering": "Regular standing water",
+        "panicle": "Regular standing water",
+        "flowering": "Regular standing water"
+      },
+      "varieties": ["Pusa Basmati-1", "IR-64", "Swarna", "MTU-1010"],
+      "additional_info": {
+        "sowing_time": "June-July",
+        "harvest_time": "October-November",
+        "seed_rate": "25 kg/ha for transplanting"
+      }
+    },
+    {
+      "id": "tomato_001",
+      "name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "vegetable",
+      "seasons": ["Rabi", "Summer"],
+      "soil_types": ["Loamy", "Sandy-loam"],
+      "water_requirement": "Medium",
+      "growth_duration_days": 90,
+      "optimal_temp_range": [15, 30],
+      "common_pests": ["Fruit borer", "Whitefly", "Aphids"],
+      "common_diseases": ["Early blight", "Late blight", "Wilt"],
+      "fertilizer_npk": {
+        "nitrogen": "150 kg/ha",
+        "phosphorus": "75 kg/ha",
+        "potassium": "75 kg/ha"
+      },
+      "irrigation_schedule": {
+        "frequency": "Every 5-7 days",
+        "critical_stages": "Flowering and fruiting"
+      },
+      "varieties": ["Pusa Ruby", "Arka Vikas", "Hisar Arun", "Punjab Chhuhara"],
+      "additional_info": {
+        "sowing_time": "September-October for winter, February-March for summer",
+        "harvest_time": "75-90 days after transplanting",
+        "spacing": "60 x 45 cm"
+      }
+    },
+    {
+      "id": "potato_001",
+      "name": "Potato",
+      "scientific_name": "Solanum tuberosum",
+      "category": "vegetable",
+      "seasons": ["Rabi"],
+      "soil_types": ["Loamy", "Sandy-loam"],
+      "water_requirement": "Medium",
+      "growth_duration_days": 90,
+      "optimal_temp_range": [15, 25],
+      "common_pests": ["Aphids", "Potato tuber moth", "Cutworm"],
+      "common_diseases": ["Late blight", "Early blight", "Black scurf"],
+      "fertilizer_npk": {
+        "nitrogen": "120 kg/ha",
+        "phosphorus": "80 kg/ha",
+        "potassium": "100 kg/ha"
+      },
+      "irrigation_schedule": {
+        "frequency": "Every 10-12 days",
+        "critical_stages": "Tuber formation and bulking"
+      },
+      "varieties": ["Kufri Jyoti", "Kufri Pukhraj", "Kufri Chandramukhi", "Kufri Bahar"],
+      "additional_info": {
+        "sowing_time": "October-November",
+        "harvest_time": "February-March",
+        "seed_rate": "2000-2500 kg/ha"
+      }
+    },
+    {
+      "id": "cotton_001",
+      "name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "category": "fiber",
+      "seasons": ["Kharif"],
+      "soil_types": ["Black soil", "Alluvial"],
+      "water_requirement": "Medium",
+      "growth_duration_days": 180,
+      "optimal_temp_range": [21, 30],
+      "common_pests": ["Bollworm", "Aphids", "Whitefly", "Jassids"],
+      "common_diseases": ["Wilt", "Root rot", "Leaf spot"],
+      "fertilizer_npk": {
+        "nitrogen": "120 kg/ha",
+        "phosphorus": "60 kg/ha",
+        "potassium": "60 kg/ha"
+      },
+      "irrigation_schedule": {
+        "frequency": "Every 15-20 days",
+        "critical_stages": "Flowering and boll formation"
+      },
+      "varieties": ["Bt Cotton hybrids", "Suraj", "H-777", "DCH-32"],
+      "additional_info": {
+        "sowing_time": "May-June",
+        "harvest_time": "October-December",
+        "seed_rate": "12-15 kg/ha"
+      }
+    }
+  ]
+}

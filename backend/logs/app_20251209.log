@@ -1,0 +1,195 @@
+2025-12-09 00:01:53 - agri_advisory - INFO - ============================================================
+2025-12-09 00:01:53 - agri_advisory - INFO - Building FAISS Vector Database
+2025-12-09 00:01:53 - agri_advisory - INFO - ============================================================
+2025-12-09 00:01:53 - agri_advisory - INFO - Found 4 text files to process
+2025-12-09 00:01:53 - agri_advisory - INFO - Building index from app\data\knowledge_base
+2025-12-09 00:01:53 - agri_advisory - INFO - Processed crop_cultivation.txt: 18 chunks
+2025-12-09 00:01:53 - agri_advisory - INFO - Processed farming_techniques.txt: 21 chunks
+2025-12-09 00:01:53 - agri_advisory - INFO - Processed pest_management.txt: 18 chunks
+2025-12-09 00:01:53 - agri_advisory - INFO - Processed soil_health.txt: 15 chunks
+2025-12-09 00:01:53 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 00:09:13 - agri_advisory - INFO - ============================================================
+2025-12-09 00:09:13 - agri_advisory - INFO - Building FAISS Vector Database
+2025-12-09 00:09:13 - agri_advisory - INFO - ============================================================
+2025-12-09 00:09:13 - agri_advisory - INFO - Found 4 text files to process
+2025-12-09 00:09:13 - agri_advisory - INFO - Building index from app\data\knowledge_base
+2025-12-09 00:09:13 - agri_advisory - INFO - Processed crop_cultivation.txt: 18 chunks
+2025-12-09 00:09:13 - agri_advisory - INFO - Processed farming_techniques.txt: 21 chunks
+2025-12-09 00:09:13 - agri_advisory - INFO - Processed pest_management.txt: 18 chunks
+2025-12-09 00:09:13 - agri_advisory - INFO - Processed soil_health.txt: 15 chunks
+2025-12-09 00:09:13 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 00:09:16 - agri_advisory - WARNING - No existing index found. Creating empty index...
+2025-12-09 00:09:16 - agri_advisory - INFO - Generating embeddings for 72 documents...
+2025-12-09 00:09:17 - agri_advisory - INFO - ============================================================
+2025-12-09 00:09:17 - agri_advisory - INFO - Total documents: 72
+2025-12-09 00:09:17 - agri_advisory - INFO - Total vectors: 72
+2025-12-09 00:09:17 - agri_advisory - INFO - Dimension: 384
+2025-12-09 00:09:17 - agri_advisory - INFO - Model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 00:09:17 - agri_advisory - INFO - Index saved to: app\data\faiss_index\knowledge_base.index
+2025-12-09 00:09:17 - agri_advisory - INFO - ============================================================
+2025-12-09 00:10:03 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 00:10:06 - agri_advisory - INFO - Database already has data, skipping initial load
+2025-12-09 00:11:00 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 00:11:00 - agri_advisory - INFO - Classified query as 'market_prices' (confidence: 0.95)
+2025-12-09 00:11:00 - agri_advisory - INFO - Found 0 relevant documents for query
+2025-12-09 00:11:00 - agri_advisory - ERROR - Error reading CSV: [Errno 2] No such file or directory: 'E:\\digital_krishi_officer\\data\\market_prices.csv'
+2025-12-09 00:11:00 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 00:11:02 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:11:02 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:11:02 - agri_advisory - INFO - Post-processed response: 4 modifications
+2025-12-09 00:11:02 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.33s)
+2025-12-09 00:11:28 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 00:11:28 - agri_advisory - INFO - Classified query as 'general' (confidence: 0.30)
+2025-12-09 00:11:28 - agri_advisory - INFO - Found 5 relevant documents for query
+2025-12-09 00:11:28 - agri_advisory - INFO - Built context: 1278 chars, 3 sources
+2025-12-09 00:11:30 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:11:30 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:11:30 - agri_advisory - INFO - Post-processed response: 1 modifications
+2025-12-09 00:11:30 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.32s)
+2025-12-09 00:26:43 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 00:26:43 - agri_advisory - INFO - [RES]POST /api/v1/query - 500 (0.01s)
+2025-12-09 00:27:04 - agri_advisory - INFO - Database connection closed
+2025-12-09 00:27:14 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 00:27:18 - agri_advisory - INFO - Database already has data, skipping initial load
+2025-12-09 00:29:46 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 00:29:46 - agri_advisory - INFO - Classified query as 'general' (confidence: 0.30)
+2025-12-09 00:29:46 - agri_advisory - INFO - Found 5 relevant documents for query
+2025-12-09 00:29:46 - agri_advisory - INFO - Built context: 1278 chars, 3 sources
+2025-12-09 00:29:48 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:29:48 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:29:48 - agri_advisory - INFO - Post-processed response: 1 modifications
+2025-12-09 00:29:48 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.34s)
+2025-12-09 00:30:56 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 00:30:56 - agri_advisory - INFO - Classified query as 'general' (confidence: 0.30)
+2025-12-09 00:30:56 - agri_advisory - INFO - Found 0 relevant documents for query
+2025-12-09 00:30:56 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 00:30:58 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:30:58 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:30:58 - agri_advisory - INFO - Post-processed response: 3 modifications
+2025-12-09 00:30:58 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.32s)
+2025-12-09 00:31:54 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 00:31:54 - agri_advisory - INFO - Classified query as 'general' (confidence: 0.30)
+2025-12-09 00:31:54 - agri_advisory - INFO - Found 0 relevant documents for query
+2025-12-09 00:31:54 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 00:31:57 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:31:57 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 00:31:57 - agri_advisory - INFO - Post-processed response: 3 modifications
+2025-12-09 00:31:57 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.34s)
+2025-12-09 11:19:56 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 11:19:57 - agri_advisory - INFO - Database already has data, skipping initial load
+2025-12-09 11:40:01 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 11:40:01 - agri_advisory - INFO - Classified query as 'crop_cultivation' (confidence: 0.95)
+2025-12-09 11:40:02 - agri_advisory - ERROR - Search failed: 'NoneType' object has no attribute 'ntotal'
+2025-12-09 11:40:02 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 11:40:04 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:40:04 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:40:04 - agri_advisory - INFO - Post-processed response: 3 modifications
+2025-12-09 11:40:04 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.55s)
+2025-12-09 11:41:00 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 11:41:00 - agri_advisory - INFO - Classified query as 'crop_cultivation' (confidence: 0.95)
+2025-12-09 11:41:00 - agri_advisory - ERROR - Search failed: 'NoneType' object has no attribute 'ntotal'
+2025-12-09 11:41:00 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 11:41:02 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:41:02 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:41:02 - agri_advisory - INFO - Post-processed response: 1 modifications
+2025-12-09 11:41:02 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.30s)
+2025-12-09 11:43:29 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 11:43:29 - agri_advisory - INFO - Classified query as 'crop_cultivation' (confidence: 0.95)
+2025-12-09 11:43:29 - agri_advisory - ERROR - Search failed: 'NoneType' object has no attribute 'ntotal'
+2025-12-09 11:43:29 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 11:43:31 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:43:31 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:43:31 - agri_advisory - INFO - Post-processed response: 3 modifications
+2025-12-09 11:43:31 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.30s)
+2025-12-09 11:47:23 - agri_advisory - INFO - Database connection closed
+2025-12-09 11:49:47 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 11:49:49 - agri_advisory - INFO - Database already has data, skipping initial load
+2025-12-09 11:51:54 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 11:51:54 - agri_advisory - INFO - Classified query as 'general' (confidence: 0.30)
+2025-12-09 11:51:54 - agri_advisory - ERROR - Search failed: 'NoneType' object has no attribute 'ntotal'
+2025-12-09 11:51:54 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 11:51:56 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:51:56 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:51:56 - agri_advisory - INFO - Post-processed response: 2 modifications
+2025-12-09 11:51:57 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.39s)
+2025-12-09 11:52:47 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 11:52:47 - agri_advisory - INFO - Classified query as 'crop_cultivation' (confidence: 0.95)
+2025-12-09 11:52:47 - agri_advisory - ERROR - Search failed: 'NoneType' object has no attribute 'ntotal'
+2025-12-09 11:52:47 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 11:52:50 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:52:50 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:52:50 - agri_advisory - INFO - Post-processed response: 3 modifications
+2025-12-09 11:52:50 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.36s)
+2025-12-09 11:53:40 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 11:53:40 - agri_advisory - INFO - Classified query as 'crop_cultivation' (confidence: 0.95)
+2025-12-09 11:53:40 - agri_advisory - ERROR - Search failed: 'NoneType' object has no attribute 'ntotal'
+2025-12-09 11:53:40 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 11:53:42 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:53:42 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 11:53:42 - agri_advisory - INFO - Post-processed response: 3 modifications
+2025-12-09 11:53:42 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.31s)
+2025-12-09 11:56:41 - agri_advisory - INFO - Database connection closed
+2025-12-09 13:06:27 - agri_advisory - INFO - ============================================================
+2025-12-09 13:06:27 - agri_advisory - INFO - Building FAISS Vector Database
+2025-12-09 13:06:27 - agri_advisory - INFO - ============================================================
+2025-12-09 13:06:27 - agri_advisory - INFO - Found 4 text files to process
+2025-12-09 13:06:27 - agri_advisory - INFO - Building index from app\data\knowledge_base
+2025-12-09 13:06:27 - agri_advisory - INFO - Processed crop_cultivation.txt: 18 chunks
+2025-12-09 13:06:27 - agri_advisory - INFO - Processed farming_techniques.txt: 21 chunks
+2025-12-09 13:06:27 - agri_advisory - INFO - Processed pest_management.txt: 18 chunks
+2025-12-09 13:06:27 - agri_advisory - INFO - Processed soil_health.txt: 15 chunks
+2025-12-09 13:06:27 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 13:06:32 - agri_advisory - INFO - Generating embeddings for 72 documents...
+2025-12-09 13:06:33 - agri_advisory - INFO - ============================================================
+2025-12-09 13:06:33 - agri_advisory - INFO - Total documents: 144
+2025-12-09 13:06:33 - agri_advisory - INFO - Total vectors: 144
+2025-12-09 13:06:33 - agri_advisory - INFO - Dimension: 384
+2025-12-09 13:06:33 - agri_advisory - INFO - Model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 13:06:33 - agri_advisory - INFO - Index saved to: app\data\faiss_index\knowledge_base.index
+2025-12-09 13:06:33 - agri_advisory - INFO - ============================================================
+2025-12-09 13:08:12 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 13:08:16 - agri_advisory - INFO - Database already has data, skipping initial load
+2025-12-09 13:34:11 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 13:34:11 - agri_advisory - INFO - Classified query as 'crop_cultivation' (confidence: 0.95)
+2025-12-09 13:34:11 - agri_advisory - INFO - Found 5 relevant documents for query
+2025-12-09 13:34:11 - agri_advisory - INFO - Built context: 1501 chars, 3 sources
+2025-12-09 13:34:13 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:34:13 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:34:13 - agri_advisory - INFO - Post-processed response: 1 modifications
+2025-12-09 13:34:13 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.49s)
+2025-12-09 13:35:23 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 13:35:23 - agri_advisory - INFO - Classified query as 'crop_cultivation' (confidence: 0.95)
+2025-12-09 13:35:23 - agri_advisory - INFO - Found 5 relevant documents for query
+2025-12-09 13:35:23 - agri_advisory - INFO - Built context: 1199 chars, 3 sources
+2025-12-09 13:35:25 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:35:25 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:35:25 - agri_advisory - INFO - Post-processed response: 1 modifications
+2025-12-09 13:35:25 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.33s)
+2025-12-09 13:35:51 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 13:35:51 - agri_advisory - INFO - Classified query as 'crop_cultivation' (confidence: 0.95)
+2025-12-09 13:35:51 - agri_advisory - INFO - Found 5 relevant documents for query
+2025-12-09 13:35:51 - agri_advisory - INFO - Built context: 1488 chars, 3 sources
+2025-12-09 13:35:53 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:35:53 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:35:53 - agri_advisory - INFO - Post-processed response: 1 modifications
+2025-12-09 13:35:53 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.33s)
+2025-12-09 13:36:54 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 13:36:54 - agri_advisory - INFO - Classified query as 'market_prices' (confidence: 0.95)
+2025-12-09 13:36:54 - agri_advisory - INFO - Found 5 relevant documents for query
+2025-12-09 13:36:54 - agri_advisory - ERROR - Error reading CSV: 'commodity'
+2025-12-09 13:36:54 - agri_advisory - INFO - Built context: 1458 chars, 3 sources
+2025-12-09 13:36:57 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:36:57 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:36:57 - agri_advisory - INFO - Post-processed response: 3 modifications
+2025-12-09 13:36:57 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.38s)
+2025-12-09 13:38:49 - agri_advisory - INFO - [REQ] POST /api/v1/query
+2025-12-09 13:38:49 - agri_advisory - INFO - Classified query as 'general' (confidence: 0.30)
+2025-12-09 13:38:49 - agri_advisory - INFO - Found 0 relevant documents for query
+2025-12-09 13:38:49 - agri_advisory - INFO - Built context: 0 chars, 0 sources
+2025-12-09 13:38:51 - agri_advisory - ERROR - Ollama generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:38:51 - agri_advisory - ERROR - LLM generation failed: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 10061] Connect call failed ('::1', 11434, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 11434)]
+2025-12-09 13:38:51 - agri_advisory - INFO - Post-processed response: 2 modifications
+2025-12-09 13:38:51 - agri_advisory - INFO - [RES]POST /api/v1/query - 200 (2.36s)
+2025-12-09 13:39:51 - agri_advisory - INFO - Database connection closed
+2025-12-09 13:43:13 - agri_advisory - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-09 13:43:17 - agri_advisory - INFO - Database already has data, skipping initial load
